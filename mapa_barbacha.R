@@ -28,7 +28,7 @@ server <- shinyServer(function(input, output) {
 
   
   # Todos ------------------------------------------------------------------------
-  t_todos <- read.csv("D:/OneDrive - INEGI/Respaldo/varios/Medioambiente/demografia/barbacha_denue/INEGI_DENUE_22042024.csv")
+  t_todos <- read.csv("~/INEGI_DENUE_22042024.csv")
   bb_data <- t_todos %>% janitor::clean_names()
   
   
